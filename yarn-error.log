@@ -1,0 +1,48 @@
+Arguments: 
+  E:\Program Files\nodejs\node.exe E:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  E:\Program Files\Git\mingw64\bin;E:\Program Files\Git\usr\bin;C:\Users\Tomas\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Program Files\Git\cmd;D:\DEV\PHP7.4.1;C:\ProgramData\ComposerSetup\bin;E:\Users\Tomas\AppData\Roaming\nvm;E:\Program Files\nodejs;E:\Program Files (x86)\Yarn\bin;C:\Users\Tomas\AppData\Local\Microsoft\WindowsApps;C:\Users\Tomas\AppData\Roaming\Composer\vendor\bin;D:\DEV\PHP7.4.1;E:\Users\Tomas\AppData\Roaming\nvm;E:\Program Files\nodejs;E:\Users\Tomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tomas\AppData\Local\atom\bin;C:\Users\Tomas\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": ["react", "starter"],
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "16.12.0",
+      "react-dom": "16.12.0",
+      "react-scripts": "3.0.1"
+    },
+    "devDependencies": {
+      "typescript": "3.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
